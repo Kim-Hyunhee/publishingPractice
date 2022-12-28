@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+  margin-right: 40px;
+}
+
+ul {
+  display: flex;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+div {
+  width: 1160px;
+  margin: 0 auto;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  margin-right: 80px;
+}
