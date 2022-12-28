@@ -1,12 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body {
+  /* background-color: black; */
+}
+
 li {
   list-style: none;
   margin-right: 40px;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 ul {
@@ -27,4 +36,18 @@ div {
 
 h1 {
   margin-right: 80px;
+}
+/*
+헤더
+*/
+strong {
+}
+span {
+  background-color: burlywood;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+p {
+  background-color: burlywood;
 }
