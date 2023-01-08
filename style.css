@@ -24,6 +24,9 @@ ul {
 
 header {
   background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 div {
