@@ -7,7 +7,7 @@
 }
 
 body {
-  /* background-color: black; */
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 li {
@@ -15,7 +15,6 @@ li {
   margin-right: 40px;
   font-size: 14px;
   color: #fff;
-  font-family: "Noto Sans KR", sans-serif;
 }
 
 ul {
@@ -43,7 +42,7 @@ h1 {
 /*
 헤더
 */
-strong {
+/* strong {
 }
 span {
   background-color: burlywood;
@@ -53,11 +52,27 @@ span {
 
 p {
   background-color: burlywood;
-}
+} */
 
 section {
   width: 100%;
   height: 1361px;
   background: url(./images/visual/background.png) center no-repeat;
   background-size: cover;
+}
+
+.visualContainer {
+  padding-top: 272px;
+}
+
+.visualTitle {
+  color: #fff;
+  font-size: 72px;
+  line-height: 100px;
+  letter-spacing: -0.05em;
+}
+
+.visualTitle span {
+  color: #48f30c;
+  margin-left: 4px;
 }
