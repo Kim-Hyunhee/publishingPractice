@@ -28,7 +28,7 @@ header {
   width: 100%;
 }
 
-div {
+header div {
   width: 1160px;
   margin: 0 auto;
   height: 80px;
@@ -62,6 +62,8 @@ section {
 }
 
 .visualContainer {
+  width: 1160px;
+  margin: 0 auto;
   padding-top: 272px;
 }
 
@@ -75,4 +77,12 @@ section {
 .visualTitle span {
   color: #48f30c;
   margin-left: 4px;
+}
+
+.visualContainer p {
+  color: #fff;
+  font-size: 28px;
+  line-height: 28px;
+  margin-top: 60px;
+  margin-bottom: 100px;
 }
