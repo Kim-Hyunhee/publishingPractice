@@ -86,3 +86,15 @@ section {
   margin-top: 60px;
   margin-bottom: 100px;
 }
+
+.visualContainer a {
+  background-color: #48f30c;
+  color: #111;
+  width: 250px;
+  height: 78px;
+  display: inline-block;
+  text-align: center;
+  line-height: 78px;
+  border-radius: 62.5px;
+  font-size: 22px;
+}
